@@ -11,6 +11,13 @@ You can run your application in dev mode that enables live coding using:
 ./mvnw quarkus:dev
 ```
 
+## Running the application in docker
+
+You can run your application in docker:
+```
+./mvnw package
+./src/main/docker/docker-compose up
+```
 ## Packaging and running the application
 
 The application can be packaged using `./mvnw package`.
